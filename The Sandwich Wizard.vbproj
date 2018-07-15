@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{905FF571-064C-44AB-906A-385C1FFFEC11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>The_Sandwich_Wizard.My.MyApplication</StartupObject>
+    <RootNamespace>The_Sandwich_Wizard</RootNamespace>
+    <AssemblyName>The Sandwich Wizard</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>The Sandwich Wizard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>The Sandwich Wizard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.Designer.vb">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerBill.Designer.vb">
+      <DependentUpon>CustomerBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Bill.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_Bill.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="customer_Bill_Orderwise.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>customer_Bill_Orderwise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Customer_Bill_Report.Designer.vb">
+      <DependentUpon>Customer_Bill_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Bill_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_fillings.Designer.vb">
+      <DependentUpon>Customer_selection_fillings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_fillings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_NonVegFillings.Designer.vb">
+      <DependentUpon>Customer_selection_NonVegFillings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_NonVegFillings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_sauce.Designer.vb">
+      <DependentUpon>Customer_selection_sauce.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_sauce.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_bread.Designer.vb">
+      <DependentUpon>Customer_selection_bread.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_bread.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_cheese.Designer.vb">
+      <DependentUpon>Customer_selection_cheese.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_cheese.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_SideOrders.Designer.vb">
+      <DependentUpon>Customer_selection_SideOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_SideOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_toppings.Designer.vb">
+      <DependentUpon>Customer_selection_toppings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_toppings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_selection_VegFillings.Designer.vb">
+      <DependentUpon>Customer_selection_VegFillings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_selection_VegFillings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="End Screen.Designer.vb">
+      <DependentUpon>End Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="End Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoutBox.Designer.vb">
+      <DependentUpon>LogoutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox.Designer.vb">
+      <DependentUpon>MessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgBox_SandwichQuantity.Designer.vb">
+      <DependentUpon>MsgBox_SandwichQuantity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MsgBox_SandwichQuantity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="popular-choices-report.Designer.vb">
+      <DependentUpon>popular-choices-report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="popular-choices-report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopularChoices.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PopularChoices.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Staff_home.Designer.vb">
+      <DependentUpon>Staff_home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff_home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TSWDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TSWDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="We%27re almost there.Designer.vb">
+      <DependentUpon>We%27re almost there.vb</DependentUpon>
+    </Compile>
+    <Compile Include="We%27re almost there.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome Screen.Designer.vb">
+      <DependentUpon>Welcome Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerBill.resx">
+      <DependentUpon>CustomerBill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Bill.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Customer_Bill.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer_Bill_Orderwise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>customer_Bill_Orderwise.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Bill_Report.resx">
+      <DependentUpon>Customer_Bill_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_cheese.resx">
+      <DependentUpon>Customer_selection_cheese.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_fillings.resx">
+      <DependentUpon>Customer_selection_fillings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_NonVegFillings.resx">
+      <DependentUpon>Customer_selection_NonVegFillings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_sauce.resx">
+      <DependentUpon>Customer_selection_sauce.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_bread.resx">
+      <DependentUpon>Customer_selection_bread.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_SideOrders.resx">
+      <DependentUpon>Customer_selection_SideOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_toppings.resx">
+      <DependentUpon>Customer_selection_toppings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_selection_VegFillings.resx">
+      <DependentUpon>Customer_selection_VegFillings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="End Screen.resx">
+      <DependentUpon>End Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoutBox.resx">
+      <DependentUpon>LogoutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox.resx">
+      <DependentUpon>MessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgBox_SandwichQuantity.resx">
+      <DependentUpon>MsgBox_SandwichQuantity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popular-choices-report.resx">
+      <DependentUpon>popular-choices-report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopularChoices.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PopularChoices.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff_home.resx">
+      <DependentUpon>Staff_home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="We%27re almost there.resx">
+      <DependentUpon>We%27re almost there.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome Screen.resx">
+      <DependentUpon>Welcome Screen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="TSWDataSet.xsc">
+      <DependentUpon>TSWDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TSWDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TSWDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TSWDataSet.xss">
+      <DependentUpon>TSWDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breads template.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breads.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirmation.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\done.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fillings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\non veg fillings text.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\non veg fillings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauces.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side orders.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veg fillings text.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veg fillings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bread_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bread_welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breads template1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breads1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirmation1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\done1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fillings1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\non veg fillings text1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\non veg fillings1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauce1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauces1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side orders1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topings1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppings1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veg fillings text1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veg fillings1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breads2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italian bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multigrain bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ragi bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mayonese sauce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mayonese sauce_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mustard sauce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mustard sauce_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pesto sauce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pesto sauce_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schezwan sauce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schezwan sauce_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomato sauce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomato sauce_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheddar cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheddar cheese_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cotija cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cotija cheese_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gouda cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gouda cheese_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mozzarella cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mozzarella cheese_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parmigiano cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parmigiano cheese_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aloo tikki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hariyali patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palak patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paneer fillings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soya patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barbecue chicken patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grilled chicken patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoked chicken patty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capsicum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capsicum_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jalapeño.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jalapeño_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olives_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onion_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomato_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice cream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice cream_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mousse cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mousse cake_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fries1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fries1_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

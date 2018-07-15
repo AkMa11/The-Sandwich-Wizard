@@ -1,0 +1,606 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+The Sandwich Wizard
+</name>
+</assembly>
+<members>
+<member name="T:The_Sandwich_Wizard.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.aloo_tikki">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.barbecue_chicken_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.bill">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.bill1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.bread_login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.bread_welcome">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.breads">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.breads_template">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.breads_template1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.breads1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.breads2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.brown_bread">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.capsicum">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.capsicum_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.cheddar_cheese">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.cheddar_cheese_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.cheese">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.cheese1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.cheese2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.chicken_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.clear_background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.coffee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.coffee_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.coke">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.coke_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.confirmation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.confirmation1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.cotija_cheese">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.cotija_cheese_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.done">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.done1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.egg_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.fillings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.fillings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.fries">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.fries1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.fries1_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.gouda_cheese">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.gouda_cheese_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.grilled_chicken_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.hariyali_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.Home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.Home1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.Home2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.ice_cream">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.ice_cream_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.italian_bread">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.Jalapeño">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.Jalapeño_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.login1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.login2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mayonese_sauce">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mayonese_sauce_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mousse_cake">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mousse_cake_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mozzarella_cheese">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mozzarella_cheese_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.multigrain_bread">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mustard_sauce">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.mustard_sauce_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.non_veg_fillings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.non_veg_fillings_text">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.non_veg_fillings_text1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.non_veg_fillings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.olives">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.olives_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.onion">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.onion_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.palak_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.paneer_fillings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.parmigiano_cheese">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.parmigiano_cheese_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.pesto_sauce">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.pesto_sauce_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.ragi_bread">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.sauce">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.sauce1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.sauces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.sauces1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.schezwan_sauce">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.schezwan_sauce_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.side_orders">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.side_orders1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.smoked_chicken_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.soya_patty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.staff">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.staff1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.tomato">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.tomato_sauce">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.tomato_sauce_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.tomato_selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.topings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.topings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.toppings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.toppings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.veg_fillings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.veg_fillings_text">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.veg_fillings_text1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.veg_fillings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.white_bread">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.wood">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:The_Sandwich_Wizard.My.Resources.Resources.wood1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSet.staff_pendingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSet.staff_pendingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSet.staff_pendingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSetTableAdapters.staff_pendingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(The_Sandwich_Wizard.TSWDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(The_Sandwich_Wizard.TSWDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(The_Sandwich_Wizard.TSWDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager.UpdateAll(The_Sandwich_Wizard.TSWDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:The_Sandwich_Wizard.TSWDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
